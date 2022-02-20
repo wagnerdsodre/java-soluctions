@@ -4,7 +4,6 @@ public class Validate {
         public static boolean
         ValidatePassword(String password)
         {
-
             // Regular expressions for password validation
             String regex = "^(?=.*[0-9])"
                    + "(?=.*[a-z])(?=.*[A-Z])"
@@ -19,6 +18,7 @@ public class Validate {
             * and the regular expression.
             * */
             Matcher m = pt.matcher(password);
+
 
             // Return True if matched pattern.
             return (m.matches());

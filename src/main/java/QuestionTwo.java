@@ -11,7 +11,8 @@ public class QuestionTwo extends Validate {
         System.out.println(pass);
         if(!ValidatePassword(pass)){
             System.out.println("The password does not meet the requirements");
-         }else{
+            System.out.println("Ex:Az1@85, 1Es#sdf");
+        }else{
             System.out.println("Password successfully validated!");
         }
 
